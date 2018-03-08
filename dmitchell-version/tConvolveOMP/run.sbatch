@@ -7,13 +7,13 @@
 
 export OMP_NUM_THREADS=4
 echo OMP_NUM_THREADS = $OMP_NUM_THREADS
-srun ./tConvolveOMP
+srun --export=all -n 1 -c ${OMP_NUM_THREADS} ./tConvolveOMP
 
 export OMP_NUM_THREADS=10
 echo OMP_NUM_THREADS = $OMP_NUM_THREADS
-srun ./tConvolveOMP
+srun --export=all -n 1 -c ${OMP_NUM_THREADS} ./tConvolveOMP
 
 export OMP_NUM_THREADS=20
 echo OMP_NUM_THREADS = $OMP_NUM_THREADS
-srun ./tConvolveOMP
+srun --export=all -n 1 -c ${OMP_NUM_THREADS} ./tConvolveOMP
 

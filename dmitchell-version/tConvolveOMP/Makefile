@@ -21,17 +21,27 @@
 # Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307 USA
 #
 
-CXX=g++
+CXX=CC
 CFLAGS=-O3 -fstrict-aliasing -fcx-limited-range -Wall -Wextra -fopenmp
-
+DEBUG=-g
+LDFLAGS=-dynamic -L/group/pawsey0001/mshaikh/software/cle60up05/forge-libs/18.0.2/GNU/4.9.3 -lmap-sampler-pmpi -lmap-sampler -Wl,--eh-frame-hdr -Wl,-rpath=/group/pawsey0001/mshaikh/software/cle60up05/forge-libs/18.0.2/GNU/4.9.3 
 all:		tConvolveOMP
 
+profile: 	tConvolveOMP-profile
+
+		
 Stopwatch.o:	Stopwatch.cc Stopwatch.h
 		$(CXX) $(CFLAGS) -c Stopwatch.cc
+
+Stopwatch-profile.o:	Stopwatch.cc Stopwatch.h
+		$(CXX) $(CFLAGS) $(DEBUG) -c Stopwatch.cc
 
 tConvolveOMP:	tConvolveOMP.cc Stopwatch.o
 		$(CXX) $(CFLAGS) -c tConvolveOMP.cc
 		$(CXX) $(CFLAGS) -o tConvolveOMP tConvolveOMP.o Stopwatch.o
 
+tConvolveOMP-profile:	tConvolveOMP.cc Stopwatch-profile.o
+		$(CXX) $(CFLAGS) $(DEBUG) -c tConvolveOMP.cc
+		$(CXX) $(CFLAGS) $(DEBUG) -o tConvolveOMP-profile tConvolveOMP.o Stopwatch.o $(LDFLAGS)
 clean:
-		rm -f *.o tConvolveOMP
+		rm -f *.o tConvolveOMP tConvolveOMP-profile
