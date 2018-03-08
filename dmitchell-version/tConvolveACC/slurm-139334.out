@@ -1,0 +1,37 @@
+Initializing W projection convolution function
+Support = 64 pixels
+W cellsize = 566.034 wavelengths
+Size of convolution function = 268 MB
+Shape of convolution function = [129, 129, 8, 8, 33]
++++++ Forward processing (CPU single core) +++++
+    Time 5.89 (s) 
+    Time per visibility spectral sample 36.8125 (us) 
+    Time per gridding   2.21216 (ns) 
+    Gridding rate   452.048 (million grid points per second)
+Done
++++++ Forward processing (OpenACC) +++++
+    Time 0.25 (s) = serial version / 23.56
+    Time per visibility spectral sample 1.5625 (us) 
+    Time per gridding   0.0938946 (ns) 
+    Gridding rate   10650.2 (million grid points per second)
+Done
+Verifying result...Pass
++++++ Reverse processing (CPU with complex mult) +++++
+    Time 7.66 (s) 
+    Time per visibility spectral sample 47.875 (us) 
+    Time per degridding   2.87693 (ns) 
+    Degridding rate   347.593 (million grid points per second)
+Done
++++++ Reverse processing (OpenACC) +++++
+    Time 0.23 (s) = serial version / 33.3043
+    Time per visibility spectral sample 1.4375 (us) 
+    Time per degridding   0.086383 (ns) 
+    Degridding rate   11576.3 (million grid points per second)
+Done
+Verifying result...Pass
+Initializing W projection convolution function
+Support = 64 pixels
+W cellsize = 566.034 wavelengths
+Size of convolution function = 268 MB
+Shape of convolution function = [129, 129, 8, 8, 33]
++++++ Forward processing (CPU complex mult) +++++

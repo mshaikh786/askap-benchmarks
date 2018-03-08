@@ -1,0 +1,20 @@
+gcc(4):ERROR:105: Unable to locate a modulefile for 'gcc/4.9.0'
+python(4):ERROR:105: Unable to locate a modulefile for 'python/2.7.10'
+ModuleCmd_Switch.c(172):ERROR:152: Module 'PrgEnv-cray' is currently not loaded
+Reading dirty image and psf image
+Iterations = 1000
+Image dimensions = 1024x1024
++++++ Forward processing (CPU Golden) +++++
+Found peak of PSF: Maximum = 1 at location 512,512
+    Time 5.34 (s) 
+    Time per cycle 5.34 (ms)
+    Cleaning rate  187.266 (iterations per second)
+Done
++++++ Forward processing (OpenACC) +++++
+Found peak of PSF: Maximum = 1 at location 512,512
+    Time 0.2 (s) 
+    Time per cycle 0.2 (ms)
+    Cleaning rate  5000 (iterations per second) => 26.7x
+Done
+Verifying model...Pass
+Verifying residual...Pass

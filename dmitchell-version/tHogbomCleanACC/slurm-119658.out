@@ -1,0 +1,75 @@
+gcc(4):ERROR:105: Unable to locate a modulefile for 'gcc/4.9.0'
+python(4):ERROR:105: Unable to locate a modulefile for 'python/2.7.10'
+ModuleCmd_Switch.c(172):ERROR:152: Module 'PrgEnv-cray' is currently not loaded
+1
+Reading dirty image and psf image
+Iterations = 1000
+Image dimensions = 1024x1024
++++++ Forward processing (CPU Golden) +++++
+Found peak of PSF: Maximum = 1 at location 512,512
+    Time 5.31 (s) 
+    Time per cycle 5.31 (ms)
+    Cleaning rate  188.324 (iterations per second)
+Done
++++++ Forward processing (OpenACC) +++++
+Found peak of PSF: Maximum = 1 at location 512,512
+    Time 0.3 (s) 
+    Time per cycle 0.3 (ms)
+    Cleaning rate  3333.33 (iterations per second) => 17.7x
+Done
+Verifying model...Pass
+Verifying residual...Pass
+14
+Reading dirty image and psf image
+Iterations = 1000
+Image dimensions = 1024x1024
++++++ Forward processing (CPU Golden) +++++
+Found peak of PSF: Maximum = 1 at location 512,512
+    Time 5.34 (s) 
+    Time per cycle 5.34 (ms)
+    Cleaning rate  187.266 (iterations per second)
+Done
++++++ Forward processing (OpenACC) +++++
+Found peak of PSF: Maximum = 1 at location 512,512
+    Time 0.28 (s) 
+    Time per cycle 0.28 (ms)
+    Cleaning rate  3571.43 (iterations per second) => 19.0714x
+Done
+Verifying model...Pass
+Verifying residual...Pass
+28
+Reading dirty image and psf image
+Iterations = 1000
+Image dimensions = 1024x1024
++++++ Forward processing (CPU Golden) +++++
+Found peak of PSF: Maximum = 1 at location 512,512
+    Time 5.34 (s) 
+    Time per cycle 5.34 (ms)
+    Cleaning rate  187.266 (iterations per second)
+Done
++++++ Forward processing (OpenACC) +++++
+Found peak of PSF: Maximum = 1 at location 512,512
+    Time 0.28 (s) 
+    Time per cycle 0.28 (ms)
+    Cleaning rate  3571.43 (iterations per second) => 19.0714x
+Done
+Verifying model...Pass
+Verifying residual...Pass
+56
+Reading dirty image and psf image
+Iterations = 1000
+Image dimensions = 1024x1024
++++++ Forward processing (CPU Golden) +++++
+Found peak of PSF: Maximum = 1 at location 512,512
+    Time 5.29 (s) 
+    Time per cycle 5.29 (ms)
+    Cleaning rate  189.036 (iterations per second)
+Done
++++++ Forward processing (OpenACC) +++++
+Found peak of PSF: Maximum = 1 at location 512,512
+    Time 0.28 (s) 
+    Time per cycle 0.28 (ms)
+    Cleaning rate  3571.43 (iterations per second) => 18.8929x
+Done
+Verifying model...Pass
+Verifying residual...Pass

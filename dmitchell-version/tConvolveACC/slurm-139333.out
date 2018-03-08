@@ -1,0 +1,8 @@
+ACC_NUM_CORES = 1
+Initializing W projection convolution function
+Support = 64 pixels
+W cellsize = 566.034 wavelengths
+Size of convolution function = 268 MB
+Shape of convolution function = [129, 129, 8, 8, 33]
++++++ Forward processing (CPU complex mult) +++++
+slurmstepd: error: *** JOB 139333 ON a091 CANCELLED AT 2018-03-05T08:23:04 DUE TO TIME LIMIT ***

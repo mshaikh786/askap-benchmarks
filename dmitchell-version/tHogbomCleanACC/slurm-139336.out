@@ -1,0 +1,42 @@
+
+ACC_NUM_CORES = 28
+
+--------------------------------------------------------
+without srun
+Reading dirty image and psf image
+Iterations = 1000
+Image dimensions = 1024x1024
++++++ Forward processing (CPU Golden) +++++
+Found peak of PSF: Maximum = 1 at location 512,512
+    Time 5.32 (s) 
+    Time per cycle 5.32 (ms)
+    Cleaning rate  187.97 (iterations per second)
+Done
++++++ Forward processing (OpenACC) +++++
+Found peak of PSF: Maximum = 1 at location 512,512
+    Time 0.3 (s) 
+    Time per cycle 0.3 (ms)
+    Cleaning rate  3333.33 (iterations per second) => 17.7333x
+Done
+Verifying model...Pass
+Verifying residual...Pass
+
+--------------------------------------------------------
+with srun
+Reading dirty image and psf image
+Iterations = 1000
+Image dimensions = 1024x1024
++++++ Forward processing (CPU Golden) +++++
+Found peak of PSF: Maximum = 1 at location 512,512
+    Time 5.34 (s) 
+    Time per cycle 5.34 (ms)
+    Cleaning rate  187.266 (iterations per second)
+Done
++++++ Forward processing (OpenACC) +++++
+Found peak of PSF: Maximum = 1 at location 512,512
+    Time 0.3 (s) 
+    Time per cycle 0.3 (ms)
+    Cleaning rate  3333.33 (iterations per second) => 17.8x
+Done
+Verifying model...Pass
+Verifying residual...Pass

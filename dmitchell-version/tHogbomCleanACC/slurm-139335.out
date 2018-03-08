@@ -1,0 +1,72 @@
+ACC_NUM_CORES = 1
+Reading dirty image and psf image
+Iterations = 1000
+Image dimensions = 1024x1024
++++++ Forward processing (CPU Golden) +++++
+Found peak of PSF: Maximum = 1 at location 512,512
+    Time 5.32 (s) 
+    Time per cycle 5.32 (ms)
+    Cleaning rate  187.97 (iterations per second)
+Done
++++++ Forward processing (OpenACC) +++++
+Found peak of PSF: Maximum = 1 at location 512,512
+    Time 5.54 (s) 
+    Time per cycle 5.54 (ms)
+    Cleaning rate  180.505 (iterations per second) => 0.960289x
+Done
+Verifying model...Pass
+Verifying residual...Pass
+ACC_NUM_CORES = 14
+Reading dirty image and psf image
+Iterations = 1000
+Image dimensions = 1024x1024
++++++ Forward processing (CPU Golden) +++++
+Found peak of PSF: Maximum = 1 at location 512,512
+    Time 5.32 (s) 
+    Time per cycle 5.32 (ms)
+    Cleaning rate  187.97 (iterations per second)
+Done
++++++ Forward processing (OpenACC) +++++
+Found peak of PSF: Maximum = 1 at location 512,512
+    Time 0.5 (s) 
+    Time per cycle 0.5 (ms)
+    Cleaning rate  2000 (iterations per second) => 10.64x
+Done
+Verifying model...Pass
+Verifying residual...Pass
+ACC_NUM_CORES = 28
+Reading dirty image and psf image
+Iterations = 1000
+Image dimensions = 1024x1024
++++++ Forward processing (CPU Golden) +++++
+Found peak of PSF: Maximum = 1 at location 512,512
+    Time 5.33 (s) 
+    Time per cycle 5.33 (ms)
+    Cleaning rate  187.617 (iterations per second)
+Done
++++++ Forward processing (OpenACC) +++++
+Found peak of PSF: Maximum = 1 at location 512,512
+    Time 0.3 (s) 
+    Time per cycle 0.3 (ms)
+    Cleaning rate  3333.33 (iterations per second) => 17.7667x
+Done
+Verifying model...Pass
+Verifying residual...Pass
+ACC_NUM_CORES = 56
+Reading dirty image and psf image
+Iterations = 1000
+Image dimensions = 1024x1024
++++++ Forward processing (CPU Golden) +++++
+Found peak of PSF: Maximum = 1 at location 512,512
+    Time 5.33 (s) 
+    Time per cycle 5.33 (ms)
+    Cleaning rate  187.617 (iterations per second)
+Done
++++++ Forward processing (OpenACC) +++++
+Found peak of PSF: Maximum = 1 at location 512,512
+    Time 49.6 (s) 
+    Time per cycle 49.6 (ms)
+    Cleaning rate  20.1613 (iterations per second) => 0.10746x
+Done
+Verifying model...Pass
+Verifying residual...Pass

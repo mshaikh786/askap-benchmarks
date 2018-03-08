@@ -1,0 +1,25 @@
+
+ACC_NUM_CORES = 56
+
+--------------------------------------------------------
+without srun
+Initializing W projection convolution function
+Support = 64 pixels
+W cellsize = 566.034 wavelengths
+Size of convolution function = 268 MB
+Shape of convolution function = [129, 129, 8, 8, 33]
++++++ Forward processing (CPU complex mult) +++++
+    Time 52.08 (s) 
+    Time per visibility spectral sample 325.5 (us) 
+    Time per gridding   19.5601 (ns) 
+    Gridding rate   51.1244 (million grid points per second)
+Done
++++++ Forward processing (CPU real mult) +++++
+    Time 6.23 (s) = complex version / 8.35955
+    Time per visibility spectral sample 38.9375 (us) 
+    Time per gridding   2.33985 (ns) 
+    Gridding rate   427.377 (million grid points per second)
+Done
+Verifying result...Pass
++++++ Forward processing (OpenACC complex mult) +++++
+slurmstepd: error: *** JOB 139332 ON a090 CANCELLED AT 2018-03-05T08:23:04 DUE TO TIME LIMIT ***

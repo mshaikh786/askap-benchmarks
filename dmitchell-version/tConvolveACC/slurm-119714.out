@@ -1,0 +1,101 @@
+gcc(4):ERROR:105: Unable to locate a modulefile for 'gcc/4.9.0'
+python(4):ERROR:105: Unable to locate a modulefile for 'python/2.7.10'
+ModuleCmd_Switch.c(172):ERROR:152: Module 'PrgEnv-cray' is currently not loaded
+
+ACC_NUM_CORES = 56
+
+--------------------------------------------------------
+without srun
+Initializing W projection convolution function
+Support = 64 pixels
+W cellsize = 566.034 wavelengths
+Size of convolution function = 268 MB
+Shape of convolution function = [129, 129, 8, 8, 33]
++++++ Forward processing (CPU with complex mult) +++++
+    Time 52.01 (s) 
+    Time per visibility spectral sample 325.062 (us) 
+    Time per gridding   19.5338 (ns) 
+    Gridding rate   51.1932 (million grid points per second)
+Done
++++++ Forward processing (CPU) +++++
+    Time 6.29 (s) = complex version / 8.26868
+    Time per visibility spectral sample 39.3125 (us) 
+    Time per gridding   2.36239 (ns) 
+    Gridding rate   423.3 (million grid points per second)
+Done
+Verifying result...Pass
++++++ Forward processing (OpenACC) +++++
+    Time 2.37 (s) = serial version / 2.65401 (s) = complex version / 21.9451
+    Time per visibility spectral sample 14.8125 (us) 
+    Time per gridding   0.890121 (ns) 
+    Gridding rate   1123.44 (million grid points per second)
+Done
+Verifying result...Pass
++++++ Reverse processing (CPU with complex mult) +++++
+    Time 67.15 (s) 
+    Time per visibility spectral sample 419.688 (us) 
+    Time per degridding   25.2201 (ns) 
+    Degridding rate   39.6509 (million grid points per second)
+Done
++++++ Reverse processing (OpenACC) +++++
+    Time 14.52 (s) = complex version / 4.62466
+    Time per visibility spectral sample 90.75 (us) 
+    Time per degridding   5.4534 (ns) 
+    Degridding rate   183.372 (million grid points per second)
+Done
+Verifying result...Pass
++++++ Reverse processing (OpenACC) +++++
+    Time 0.7 (s) = serial version / 20.7429 (s) = complex version / 95.9286
+    Time per visibility spectral sample 4.375 (us) 
+    Time per degridding   0.262905 (ns) 
+    Degridding rate   3803.66 (million grid points per second)
+Done
+Verifying result...Pass
+
+--------------------------------------------------------
+with srun
+Initializing W projection convolution function
+Support = 64 pixels
+W cellsize = 566.034 wavelengths
+Size of convolution function = 268 MB
+Shape of convolution function = [129, 129, 8, 8, 33]
++++++ Forward processing (CPU with complex mult) +++++
+    Time 52.04 (s) 
+    Time per visibility spectral sample 325.25 (us) 
+    Time per gridding   19.5451 (ns) 
+    Gridding rate   51.1637 (million grid points per second)
+Done
++++++ Forward processing (CPU) +++++
+    Time 6.35 (s) = complex version / 8.19528
+    Time per visibility spectral sample 39.6875 (us) 
+    Time per gridding   2.38492 (ns) 
+    Gridding rate   419.301 (million grid points per second)
+Done
+Verifying result...Pass
++++++ Forward processing (OpenACC) +++++
+    Time 2.1 (s) = serial version / 3.02381 (s) = complex version / 24.781
+    Time per visibility spectral sample 13.125 (us) 
+    Time per gridding   0.788715 (ns) 
+    Gridding rate   1267.89 (million grid points per second)
+Done
+Verifying result...Pass
++++++ Reverse processing (CPU with complex mult) +++++
+    Time 58.57 (s) 
+    Time per visibility spectral sample 366.062 (us) 
+    Time per degridding   21.9976 (ns) 
+    Degridding rate   45.4595 (million grid points per second)
+Done
++++++ Reverse processing (OpenACC) +++++
+    Time 8.8 (s) = complex version / 6.65568
+    Time per visibility spectral sample 55 (us) 
+    Time per degridding   3.30509 (ns) 
+    Degridding rate   302.564 (million grid points per second)
+Done
+Verifying result...Pass
++++++ Reverse processing (OpenACC) +++++
+    Time 0.8 (s) = serial version / 11 (s) = complex version / 73.2125
+    Time per visibility spectral sample 5 (us) 
+    Time per degridding   0.300463 (ns) 
+    Degridding rate   3328.2 (million grid points per second)
+Done
+Verifying result...Pass

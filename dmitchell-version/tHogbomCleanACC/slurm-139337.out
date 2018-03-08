@@ -1,0 +1,17 @@
+Reading dirty image and psf image
+Iterations = 1000
+Image dimensions = 1024x1024
++++++ Forward processing (CPU Golden) +++++
+Found peak of PSF: Maximum = 1 at location 512,512
+    Time 5.29 (s) 
+    Time per cycle 5.29 (ms)
+    Cleaning rate  189.036 (iterations per second)
+Done
++++++ Forward processing (OpenACC) +++++
+Found peak of PSF: Maximum = 1 at location 512,512
+    Time 0.18 (s) 
+    Time per cycle 0.18 (ms)
+    Cleaning rate  5555.56 (iterations per second) => 29.3889x
+Done
+Verifying model...Pass
+Verifying residual...Pass

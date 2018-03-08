@@ -1,0 +1,2029 @@
+srun -n 1
+Initializing W projection convolution function
+Support = 64 pixels
+W cellsize = 566.034 wavelengths
+Size of convolution function = 268 MB
+Shape of convolution function = [129, 129, 8, 8, 33]
++++++ Forward processing (CPU) +++++
+    Time 4.37 (s) 
+    Time per visibility spectral sample 27.3125 (us) 
+    Time per gridding   1.64128 (ns) 
+    Gridding rate   609.281 (million grid points per second)
+Done
++++++ Forward processing (OpenMP) +++++
+    Num threads: 1
+    Time 4.4 (s) 
+    Time per visibility spectral sample 27.5 (us) 
+    Time per gridding   1.65254 (ns) 
+    Gridding rate   605.127 (million grid points per second)
+Done
+Verifying result...Pass
++++++ Reverse processing (CPU) +++++
+    Time 5.53 (s) 
+    Time per visibility spectral sample 34.5625 (us) 
+    Time per degridding   2.07695 (ns) 
+    Degridding rate   481.476 (million grid points per second)
+Done
++++++ Reverse processing (OpenMP) +++++
+    Num threads: 1
+    Time 5.59 (s) 
+    Time per visibility spectral sample 34.9375 (us) 
+    Time per degridding   2.09948 (ns) 
+    Degridding rate   476.308 (million grid points per second)
+Done
+Verifying result...Pass
+srun -n 4
+srun: Job step creation temporarily disabled, retrying
+srun: Job step created
+Initializing W projection convolution function
+Support = 64 pixels
+W cellsize = 566.034 wavelengths
+Initializing W projection convolution function
+Support = 64 pixels
+W cellsize = 566.034 wavelengths
+Initializing W projection convolution function
+Support = 64 pixels
+W cellsize = 566.034 wavelengths
+Initializing W projection convolution function
+Support = 64 pixels
+W cellsize = 566.034 wavelengths
+Size of convolution function = 268 MB
+Shape of convolution function = [129, 129, 8, 8, 33]
+Size of convolution function = 268 MB
+Shape of convolution function = [129, 129, 8, 8, 33]
+Size of convolution function = 268 MB
+Shape of convolution function = [129, 129, 8, 8, 33]
+Size of convolution function = 268 MB
+Shape of convolution function = [129, 129, 8, 8, 33]
++++++ Forward processing (CPU) +++++
++++++ Forward processing (CPU) +++++
++++++ Forward processing (CPU) +++++
++++++ Forward processing (CPU) +++++
+    Time 5.36 (s) 
+    Time per visibility spectral sample 33.5 (us) 
+    Time per gridding   2.0131 (ns) 
+    Gridding rate   496.746 (million grid points per second)
+Done
+    Time 5.36 (s) 
+    Time per visibility spectral sample 33.5 (us) 
+    Time per gridding   2.0131 (ns) 
+    Gridding rate   496.746 (million grid points per second)
+Done
++++++ Forward processing (OpenMP) +++++
++++++ Forward processing (OpenMP) +++++
+    Time 5.43 (s) 
+    Time per visibility spectral sample 33.9375 (us) 
+    Time per gridding   2.03939 (ns) 
+    Gridding rate   490.343 (million grid points per second)
+Done
+    Time 5.48 (s) 
+    Time per visibility spectral sample 34.25 (us) 
+    Time per gridding   2.05817 (ns) 
+    Gridding rate   485.869 (million grid points per second)
+Done
++++++ Forward processing (OpenMP) +++++
++++++ Forward processing (OpenMP) +++++
+    Num threads: 1
+    Time 5.44 (s) 
+    Time per visibility spectral sample 34 (us) 
+    Time per gridding   2.04315 (ns) 
+    Gridding rate   489.441 (million grid points per second)
+Done
+Verifying result...Pass
+    Num threads: 1
+    Time 5.55 (s) 
+    Time per visibility spectral sample 34.6875 (us) 
+    Time per gridding   2.08446 (ns) 
+    Gridding rate   479.741 (million grid points per second)
+Done
+    Num threads: 1
+    Time 5.55 (s) 
+    Time per visibility spectral sample 34.6875 (us) 
+    Time per gridding   2.08446 (ns) 
+    Gridding rate   479.741 (million grid points per second)
+Done
++++++ Reverse processing (CPU) +++++
+Verifying result...Pass
+Verifying result...Pass
++++++ Reverse processing (CPU) +++++
++++++ Reverse processing (CPU) +++++
+    Num threads: 1
+    Time 5.53 (s) 
+    Time per visibility spectral sample 34.5625 (us) 
+    Time per gridding   2.07695 (ns) 
+    Gridding rate   481.476 (million grid points per second)
+Done
+Verifying result...Pass
++++++ Reverse processing (CPU) +++++
+    Time 6.29 (s) 
+    Time per visibility spectral sample 39.3125 (us) 
+    Time per degridding   2.36239 (ns) 
+    Degridding rate   423.3 (million grid points per second)
+Done
++++++ Reverse processing (OpenMP) +++++
+    Time 6.29 (s) 
+    Time per visibility spectral sample 39.3125 (us) 
+    Time per degridding   2.36239 (ns) 
+    Degridding rate   423.3 (million grid points per second)
+Done
+    Time 6.29 (s) 
+    Time per visibility spectral sample 39.3125 (us) 
+    Time per degridding   2.36239 (ns) 
+    Degridding rate   423.3 (million grid points per second)
+Done
++++++ Reverse processing (OpenMP) +++++
++++++ Reverse processing (OpenMP) +++++
+    Time 6.29 (s) 
+    Time per visibility spectral sample 39.3125 (us) 
+    Time per degridding   2.36239 (ns) 
+    Degridding rate   423.3 (million grid points per second)
+Done
++++++ Reverse processing (OpenMP) +++++
+    Num threads: 1
+    Time 6.3 (s) 
+    Time per visibility spectral sample 39.375 (us) 
+    Time per degridding   2.36614 (ns) 
+    Degridding rate   422.629 (million grid points per second)
+Done
+Verifying result...Pass
+    Num threads: 1
+    Time 6.29 (s) 
+    Time per visibility spectral sample 39.3125 (us) 
+    Time per degridding   2.36239 (ns) 
+    Degridding rate   423.3 (million grid points per second)
+Done
+Verifying result...Pass
+    Num threads: 1
+    Time 6.29 (s) 
+    Time per visibility spectral sample 39.3125 (us) 
+    Time per degridding   2.36239 (ns) 
+    Degridding rate   423.3 (million grid points per second)
+Done
+Verifying result...Pass
+    Num threads: 1
+    Time 6.29 (s) 
+    Time per visibility spectral sample 39.3125 (us) 
+    Time per degridding   2.36239 (ns) 
+    Degridding rate   423.3 (million grid points per second)
+Done
+Verifying result...Pass
+srun -n 8
+srun: Job step creation temporarily disabled, retrying
+srun: Job step created
+Initializing W projection convolution function
+Support = 64 pixels
+W cellsize = 566.034 wavelengths
+Initializing W projection convolution function
+Support = 64 pixels
+W cellsize = 566.034 wavelengths
+Initializing W projection convolution function
+Support = 64 pixels
+W cellsize = 566.034 wavelengths
+Initializing W projection convolution function
+Support = 64 pixels
+W cellsize = 566.034 wavelengths
+Initializing W projection convolution function
+Support = 64 pixels
+W cellsize = 566.034 wavelengths
+Initializing W projection convolution function
+Support = 64 pixels
+W cellsize = 566.034 wavelengths
+Initializing W projection convolution function
+Support = 64 pixels
+W cellsize = 566.034 wavelengths
+Initializing W projection convolution function
+Support = 64 pixels
+W cellsize = 566.034 wavelengths
+Size of convolution function = 268 MB
+Shape of convolution function = [129, 129, 8, 8, 33]
+Size of convolution function = 268 MB
+Shape of convolution function = [129, 129, 8, 8, 33]
+Size of convolution function = 268 MB
+Shape of convolution function = [129, 129, 8, 8, 33]
+Size of convolution function = 268 MB
+Shape of convolution function = [129, 129, 8, 8, 33]
+Size of convolution function = 268 MB
+Shape of convolution function = [129, 129, 8, 8, 33]
+Size of convolution function = 268 MB
+Shape of convolution function = [129, 129, 8, 8, 33]
+Size of convolution function = 268 MB
+Shape of convolution function = [129, 129, 8, 8, 33]
+Size of convolution function = 268 MB
+Shape of convolution function = [129, 129, 8, 8, 33]
++++++ Forward processing (CPU) +++++
++++++ Forward processing (CPU) +++++
++++++ Forward processing (CPU) +++++
++++++ Forward processing (CPU) +++++
++++++ Forward processing (CPU) +++++
++++++ Forward processing (CPU) +++++
++++++ Forward processing (CPU) +++++
++++++ Forward processing (CPU) +++++
+    Time 7.78 (s) 
+    Time per visibility spectral sample 48.625 (us) 
+    Time per gridding   2.922 (ns) 
+    Gridding rate   342.231 (million grid points per second)
+Done
+    Time 7.77 (s) 
+    Time per visibility spectral sample 48.5625 (us) 
+    Time per gridding   2.91824 (ns) 
+    Gridding rate   342.672 (million grid points per second)
+Done
+    Time 7.78 (s) 
+    Time per visibility spectral sample 48.625 (us) 
+    Time per gridding   2.922 (ns) 
+    Gridding rate   342.231 (million grid points per second)
+Done
+    Time 7.78 (s) 
+    Time per visibility spectral sample 48.625 (us) 
+    Time per gridding   2.922 (ns) 
+    Gridding rate   342.231 (million grid points per second)
+Done
+    Time 7.79 (s) 
+    Time per visibility spectral sample 48.6875 (us) 
+    Time per gridding   2.92576 (ns) 
+    Gridding rate   341.792 (million grid points per second)
+Done
+    Time 7.78 (s) 
+    Time per visibility spectral sample 48.625 (us) 
+    Time per gridding   2.922 (ns) 
+    Gridding rate   342.231 (million grid points per second)
+Done
+    Time 7.79 (s) 
+    Time per visibility spectral sample 48.6875 (us) 
+    Time per gridding   2.92576 (ns) 
+    Gridding rate   341.792 (million grid points per second)
+Done
+    Time 7.8 (s) 
+    Time per visibility spectral sample 48.75 (us) 
+    Time per gridding   2.92951 (ns) 
+    Gridding rate   341.354 (million grid points per second)
+Done
++++++ Forward processing (OpenMP) +++++
++++++ Forward processing (OpenMP) +++++
++++++ Forward processing (OpenMP) +++++
++++++ Forward processing (OpenMP) +++++
++++++ Forward processing (OpenMP) +++++
++++++ Forward processing (OpenMP) +++++
++++++ Forward processing (OpenMP) +++++
++++++ Forward processing (OpenMP) +++++
+    Num threads: 1
+    Time 7.82 (s) 
+    Time per visibility spectral sample 48.875 (us) 
+    Time per gridding   2.93702 (ns) 
+    Gridding rate   340.481 (million grid points per second)
+Done
+    Num threads: 1
+    Time 7.82 (s) 
+    Time per visibility spectral sample 48.875 (us) 
+    Time per gridding   2.93702 (ns) 
+    Gridding rate   340.481 (million grid points per second)
+Done
+    Num threads: 1
+    Time 7.82 (s) 
+    Time per visibility spectral sample 48.875 (us) 
+    Time per gridding   2.93702 (ns) 
+    Gridding rate   340.481 (million grid points per second)
+Done
+    Num threads: 1
+    Time 7.82 (s) 
+    Time per visibility spectral sample 48.875 (us) 
+    Time per gridding   2.93702 (ns) 
+    Gridding rate   340.481 (million grid points per second)
+Done
+    Num threads: 1
+    Time 7.84 (s) 
+    Time per visibility spectral sample 49 (us) 
+    Time per gridding   2.94453 (ns) 
+    Gridding rate   339.612 (million grid points per second)
+Done
+    Num threads: 1
+    Time 7.84 (s) 
+    Time per visibility spectral sample 49 (us) 
+    Time per gridding   2.94453 (ns) 
+    Gridding rate   339.612 (million grid points per second)
+Done
+Verifying result...Pass
+Verifying result...Pass
+    Num threads: 1
+    Time 7.83 (s) 
+    Time per visibility spectral sample 48.9375 (us) 
+    Time per gridding   2.94078 (ns) 
+    Gridding rate   340.046 (million grid points per second)
+Done
+    Num threads: 1
+    Time 7.84 (s) 
+    Time per visibility spectral sample 49 (us) 
+    Time per gridding   2.94453 (ns) 
+    Gridding rate   339.612 (million grid points per second)
+Done
+Verifying result...Pass
++++++ Reverse processing (CPU) +++++
+Verifying result...Pass
++++++ Reverse processing (CPU) +++++
+Verifying result...Pass
+Verifying result...Pass
++++++ Reverse processing (CPU) +++++
++++++ Reverse processing (CPU) +++++
++++++ Reverse processing (CPU) +++++
++++++ Reverse processing (CPU) +++++
+Verifying result...Pass
+Verifying result...Pass
++++++ Reverse processing (CPU) +++++
++++++ Reverse processing (CPU) +++++
+    Time 7.37 (s) 
+    Time per visibility spectral sample 46.0625 (us) 
+    Time per degridding   2.76801 (ns) 
+    Degridding rate   361.27 (million grid points per second)
+Done
+    Time 7.37 (s) 
+    Time per visibility spectral sample 46.0625 (us) 
+    Time per degridding   2.76801 (ns) 
+    Degridding rate   361.27 (million grid points per second)
+Done
++++++ Reverse processing (OpenMP) +++++
++++++ Reverse processing (OpenMP) +++++
+    Time 7.37 (s) 
+    Time per visibility spectral sample 46.0625 (us) 
+    Time per degridding   2.76801 (ns) 
+    Degridding rate   361.27 (million grid points per second)
+Done
+    Time 7.38 (s) 
+    Time per visibility spectral sample 46.125 (us) 
+    Time per degridding   2.77177 (ns) 
+    Degridding rate   360.78 (million grid points per second)
+Done
+    Time 7.38 (s) 
+    Time per visibility spectral sample 46.125 (us) 
+    Time per degridding   2.77177 (ns) 
+    Degridding rate   360.78 (million grid points per second)
+Done
+    Time 7.38 (s) 
+    Time per visibility spectral sample 46.125 (us) 
+    Time per degridding   2.77177 (ns) 
+    Degridding rate   360.78 (million grid points per second)
+Done
++++++ Reverse processing (OpenMP) +++++
++++++ Reverse processing (OpenMP) +++++
++++++ Reverse processing (OpenMP) +++++
++++++ Reverse processing (OpenMP) +++++
+    Time 7.38 (s) 
+    Time per visibility spectral sample 46.125 (us) 
+    Time per degridding   2.77177 (ns) 
+    Degridding rate   360.78 (million grid points per second)
+Done
+    Time 7.39 (s) 
+    Time per visibility spectral sample 46.1875 (us) 
+    Time per degridding   2.77552 (ns) 
+    Degridding rate   360.292 (million grid points per second)
+Done
++++++ Reverse processing (OpenMP) +++++
++++++ Reverse processing (OpenMP) +++++
+    Num threads: 1
+    Time 7.37 (s) 
+    Time per visibility spectral sample 46.0625 (us) 
+    Time per degridding   2.76801 (ns) 
+    Degridding rate   361.27 (million grid points per second)
+Done
+Verifying result...Pass
+    Num threads: 1
+    Time 7.38 (s) 
+    Time per visibility spectral sample 46.125 (us) 
+    Time per degridding   2.77177 (ns) 
+    Degridding rate   360.78 (million grid points per second)
+Done
+Verifying result...Pass
+    Num threads: 1
+    Time 7.38 (s) 
+    Time per visibility spectral sample 46.125 (us) 
+    Time per degridding   2.77177 (ns) 
+    Degridding rate   360.78 (million grid points per second)
+Done
+Verifying result...Pass
+    Num threads: 1
+    Time 7.38 (s) 
+    Time per visibility spectral sample 46.125 (us) 
+    Time per degridding   2.77177 (ns) 
+    Degridding rate   360.78 (million grid points per second)
+Done
+Verifying result...Pass
+    Num threads: 1
+    Time 7.38 (s) 
+    Time per visibility spectral sample 46.125 (us) 
+    Time per degridding   2.77177 (ns) 
+    Degridding rate   360.78 (million grid points per second)
+Done
+Verifying result...Pass
+    Num threads: 1
+    Time 7.38 (s) 
+    Time per visibility spectral sample 46.125 (us) 
+    Time per degridding   2.77177 (ns) 
+    Degridding rate   360.78 (million grid points per second)
+Done
+Verifying result...Pass
+    Num threads: 1
+    Time 7.38 (s) 
+    Time per visibility spectral sample 46.125 (us) 
+    Time per degridding   2.77177 (ns) 
+    Degridding rate   360.78 (million grid points per second)
+Done
+Verifying result...Pass
+    Num threads: 1
+    Time 7.38 (s) 
+    Time per visibility spectral sample 46.125 (us) 
+    Time per degridding   2.77177 (ns) 
+    Degridding rate   360.78 (million grid points per second)
+Done
+Verifying result...Pass
+srun -n 12
+srun: Job step creation temporarily disabled, retrying
+srun: Job step created
+Initializing W projection convolution function
+Support = 64 pixels
+Initializing W projection convolution function
+Support = 64 pixels
+W cellsize = 566.034 wavelengths
+Initializing W projection convolution function
+Support = 64 pixels
+W cellsize = 566.034 wavelengths
+Initializing W projection convolution function
+Support = 64 pixels
+W cellsize = 566.034 wavelengths
+W cellsize = 566.034 wavelengths
+Initializing W projection convolution function
+Support = 64 pixels
+W cellsize = 566.034 wavelengths
+Initializing W projection convolution function
+Support = 64 pixels
+W cellsize = 566.034 wavelengths
+Initializing W projection convolution function
+Support = 64 pixels
+Initializing W projection convolution function
+Support = 64 pixels
+W cellsize = 566.034 wavelengths
+W cellsize = 566.034 wavelengths
+Initializing W projection convolution function
+Support = 64 pixels
+W cellsize = 566.034 wavelengths
+Initializing W projection convolution function
+Support = 64 pixels
+W cellsize = 566.034 wavelengths
+Initializing W projection convolution function
+Support = 64 pixels
+W cellsize = 566.034 wavelengths
+Initializing W projection convolution function
+Support = 64 pixels
+W cellsize = 566.034 wavelengths
+Size of convolution function = 268 MB
+Shape of convolution function = [129, 129, 8, 8, 33]
+Size of convolution function = 268 MB
+Shape of convolution function = [129, 129, 8, 8, 33]
+Size of convolution function = 268 MB
+Shape of convolution function = [129, 129, 8, 8, 33]
+Size of convolution function = 268 MB
+Shape of convolution function = [129, 129, 8, 8, 33]
+Size of convolution function = 268 MB
+Shape of convolution function = [129, 129, 8, 8, 33]
+Size of convolution function = 268 MB
+Shape of convolution function = [129, 129, 8, 8, 33]
+Size of convolution function = 268 MB
+Shape of convolution function = [129, 129, 8, 8, 33]
+Size of convolution function = 268 MB
+Shape of convolution function = [129, 129, 8, 8, 33]
+Size of convolution function = 268 MB
+Shape of convolution function = [129, 129, 8, 8, 33]
+Size of convolution function = 268 MB
+Shape of convolution function = [129, 129, 8, 8, 33]
+Size of convolution function = 268 MB
+Shape of convolution function = [129, 129, 8, 8, 33]
+Size of convolution function = 268 MB
+Shape of convolution function = [129, 129, 8, 8, 33]
++++++ Forward processing (CPU) +++++
++++++ Forward processing (CPU) +++++
++++++ Forward processing (CPU) +++++
++++++ Forward processing (CPU) +++++
++++++ Forward processing (CPU) +++++
++++++ Forward processing (CPU) +++++
++++++ Forward processing (CPU) +++++
++++++ Forward processing (CPU) +++++
++++++ Forward processing (CPU) +++++
++++++ Forward processing (CPU) +++++
++++++ Forward processing (CPU) +++++
++++++ Forward processing (CPU) +++++
+    Time 10.93 (s) 
+    Time per visibility spectral sample 68.3125 (us) 
+    Time per gridding   4.10507 (ns) 
+    Gridding rate   243.601 (million grid points per second)
+Done
+    Time 10.95 (s) 
+    Time per visibility spectral sample 68.4375 (us) 
+    Time per gridding   4.11258 (ns) 
+    Gridding rate   243.156 (million grid points per second)
+Done
+    Time 10.97 (s) 
+    Time per visibility spectral sample 68.5625 (us) 
+    Time per gridding   4.12009 (ns) 
+    Gridding rate   242.713 (million grid points per second)
+Done
+    Time 10.98 (s) 
+    Time per visibility spectral sample 68.625 (us) 
+    Time per gridding   4.12385 (ns) 
+    Gridding rate   242.492 (million grid points per second)
+Done
+    Time 10.99 (s) 
+    Time per visibility spectral sample 68.6875 (us) 
+    Time per gridding   4.12761 (ns) 
+    Gridding rate   242.271 (million grid points per second)
+Done
+    Time 11 (s) 
+    Time per visibility spectral sample 68.75 (us) 
+    Time per gridding   4.13136 (ns) 
+    Gridding rate   242.051 (million grid points per second)
+Done
+    Time 11 (s) 
+    Time per visibility spectral sample 68.75 (us) 
+    Time per gridding   4.13136 (ns) 
+    Gridding rate   242.051 (million grid points per second)
+Done
+    Time 11 (s) 
+    Time per visibility spectral sample 68.75 (us) 
+    Time per gridding   4.13136 (ns) 
+    Gridding rate   242.051 (million grid points per second)
+Done
+    Time 11 (s) 
+    Time per visibility spectral sample 68.75 (us) 
+    Time per gridding   4.13136 (ns) 
+    Gridding rate   242.051 (million grid points per second)
+Done
+    Time 11 (s) 
+    Time per visibility spectral sample 68.75 (us) 
+    Time per gridding   4.13136 (ns) 
+    Gridding rate   242.051 (million grid points per second)
+Done
+    Time 11.01 (s) 
+    Time per visibility spectral sample 68.8125 (us) 
+    Time per gridding   4.13512 (ns) 
+    Gridding rate   241.831 (million grid points per second)
+Done
+    Time 11.02 (s) 
+    Time per visibility spectral sample 68.875 (us) 
+    Time per gridding   4.13887 (ns) 
+    Gridding rate   241.612 (million grid points per second)
+Done
++++++ Forward processing (OpenMP) +++++
++++++ Forward processing (OpenMP) +++++
++++++ Forward processing (OpenMP) +++++
++++++ Forward processing (OpenMP) +++++
++++++ Forward processing (OpenMP) +++++
++++++ Forward processing (OpenMP) +++++
++++++ Forward processing (OpenMP) +++++
++++++ Forward processing (OpenMP) +++++
++++++ Forward processing (OpenMP) +++++
++++++ Forward processing (OpenMP) +++++
++++++ Forward processing (OpenMP) +++++
++++++ Forward processing (OpenMP) +++++
+    Num threads: 1
+    Time 10.78 (s) 
+    Time per visibility spectral sample 67.375 (us) 
+    Time per gridding   4.04874 (ns) 
+    Gridding rate   246.991 (million grid points per second)
+Done
+Verifying result...Pass
++++++ Reverse processing (CPU) +++++
+    Num threads: 1
+    Time 10.87 (s) 
+    Time per visibility spectral sample 67.9375 (us) 
+    Time per gridding   4.08254 (ns) 
+    Gridding rate   244.946 (million grid points per second)
+Done
+Verifying result...Pass
++++++ Reverse processing (CPU) +++++
+    Num threads: 1
+    Time 11.03 (s) 
+    Time per visibility spectral sample 68.9375 (us) 
+    Time per gridding   4.14263 (ns) 
+    Gridding rate   241.393 (million grid points per second)
+Done
+    Num threads: 1
+    Time 11.04 (s) 
+    Time per visibility spectral sample 69 (us) 
+    Time per gridding   4.14639 (ns) 
+    Gridding rate   241.174 (million grid points per second)
+Done
+Verifying result...Pass
+    Num threads: 1
+    Time 11.04 (s) 
+    Time per visibility spectral sample 69 (us) 
+    Time per gridding   4.14639 (ns) 
+    Gridding rate   241.174 (million grid points per second)
+Done
+    Num threads: 1
+    Time 11.04 (s) 
+    Time per visibility spectral sample 69 (us) 
+    Time per gridding   4.14639 (ns) 
+    Gridding rate   241.174 (million grid points per second)
+Done
+    Num threads: 1
+    Time 11.04 (s) 
+    Time per visibility spectral sample 69 (us) 
+    Time per gridding   4.14639 (ns) 
+    Gridding rate   241.174 (million grid points per second)
+Done
+    Num threads: 1
+    Time 11.05 (s) 
+    Time per visibility spectral sample 69.0625 (us) 
+    Time per gridding   4.15014 (ns) 
+    Gridding rate   240.956 (million grid points per second)
+Done
+    Num threads: 1
+    Time 11.05 (s) 
+    Time per visibility spectral sample 69.0625 (us) 
+    Time per gridding   4.15014 (ns) 
+    Gridding rate   240.956 (million grid points per second)
+Done
+Verifying result...Pass
++++++ Reverse processing (CPU) +++++
++++++ Reverse processing (CPU) +++++
+Verifying result...Pass
+Verifying result...Pass
+Verifying result...Pass
+Verifying result...Pass
+    Num threads: 1
+    Time 11.08 (s) 
+    Time per visibility spectral sample 69.25 (us) 
+    Time per gridding   4.16141 (ns) 
+    Gridding rate   240.303 (million grid points per second)
+Done
+Verifying result...Pass
+    Num threads: 1
+    Time 11.07 (s) 
+    Time per visibility spectral sample 69.1875 (us) 
+    Time per gridding   4.15765 (ns) 
+    Gridding rate   240.52 (million grid points per second)
+Done
++++++ Reverse processing (CPU) +++++
++++++ Reverse processing (CPU) +++++
+    Num threads: 1
+    Time 11.07 (s) 
+    Time per visibility spectral sample 69.1875 (us) 
+    Time per gridding   4.15765 (ns) 
+    Gridding rate   240.52 (million grid points per second)
+Done
++++++ Reverse processing (CPU) +++++
++++++ Reverse processing (CPU) +++++
++++++ Reverse processing (CPU) +++++
+Verifying result...Pass
+Verifying result...Pass
+Verifying result...Pass
++++++ Reverse processing (CPU) +++++
++++++ Reverse processing (CPU) +++++
++++++ Reverse processing (CPU) +++++
+    Time 8.49 (s) 
+    Time per visibility spectral sample 53.0625 (us) 
+    Time per degridding   3.18866 (ns) 
+    Degridding rate   313.611 (million grid points per second)
+Done
++++++ Reverse processing (OpenMP) +++++
+    Time 8.51 (s) 
+    Time per visibility spectral sample 53.1875 (us) 
+    Time per degridding   3.19617 (ns) 
+    Degridding rate   312.874 (million grid points per second)
+Done
++++++ Reverse processing (OpenMP) +++++
+    Time 8.42 (s) 
+    Time per visibility spectral sample 52.625 (us) 
+    Time per degridding   3.16237 (ns) 
+    Degridding rate   316.219 (million grid points per second)
+Done
++++++ Reverse processing (OpenMP) +++++
+    Time 8.43 (s) 
+    Time per visibility spectral sample 52.6875 (us) 
+    Time per degridding   3.16613 (ns) 
+    Degridding rate   315.843 (million grid points per second)
+Done
++++++ Reverse processing (OpenMP) +++++
+    Time 8.44 (s) 
+    Time per visibility spectral sample 52.75 (us) 
+    Time per degridding   3.16988 (ns) 
+    Degridding rate   315.469 (million grid points per second)
+Done
+    Time 8.44 (s) 
+    Time per visibility spectral sample 52.75 (us) 
+    Time per degridding   3.16988 (ns) 
+    Degridding rate   315.469 (million grid points per second)
+Done
+    Time 8.44 (s) 
+    Time per visibility spectral sample 52.75 (us) 
+    Time per degridding   3.16988 (ns) 
+    Degridding rate   315.469 (million grid points per second)
+Done
++++++ Reverse processing (OpenMP) +++++
++++++ Reverse processing (OpenMP) +++++
+    Time 8.44 (s) 
+    Time per visibility spectral sample 52.75 (us) 
+    Time per degridding   3.16988 (ns) 
+    Degridding rate   315.469 (million grid points per second)
+Done
+    Time 8.46 (s) 
+    Time per visibility spectral sample 52.875 (us) 
+    Time per degridding   3.17739 (ns) 
+    Degridding rate   314.723 (million grid points per second)
+Done
++++++ Reverse processing (OpenMP) +++++
++++++ Reverse processing (OpenMP) +++++
++++++ Reverse processing (OpenMP) +++++
+    Time 8.45 (s) 
+    Time per visibility spectral sample 52.8125 (us) 
+    Time per degridding   3.17364 (ns) 
+    Degridding rate   315.096 (million grid points per second)
+Done
+    Time 8.45 (s) 
+    Time per visibility spectral sample 52.8125 (us) 
+    Time per degridding   3.17364 (ns) 
+    Degridding rate   315.096 (million grid points per second)
+Done
++++++ Reverse processing (OpenMP) +++++
++++++ Reverse processing (OpenMP) +++++
+    Time 8.46 (s) 
+    Time per visibility spectral sample 52.875 (us) 
+    Time per degridding   3.17739 (ns) 
+    Degridding rate   314.723 (million grid points per second)
+Done
++++++ Reverse processing (OpenMP) +++++
+    Num threads: 1
+    Time 8.44 (s) 
+    Time per visibility spectral sample 52.75 (us) 
+    Time per degridding   3.16988 (ns) 
+    Degridding rate   315.469 (million grid points per second)
+Done
+Verifying result...Pass
+    Num threads: 1
+    Time 8.46 (s) 
+    Time per visibility spectral sample 52.875 (us) 
+    Time per degridding   3.17739 (ns) 
+    Degridding rate   314.723 (million grid points per second)
+Done
+Verifying result...Pass
+    Num threads: 1
+    Time 8.45 (s) 
+    Time per visibility spectral sample 52.8125 (us) 
+    Time per degridding   3.17364 (ns) 
+    Degridding rate   315.096 (million grid points per second)
+Done
+Verifying result...Pass
+    Num threads: 1
+    Time 8.42 (s) 
+    Time per visibility spectral sample 52.625 (us) 
+    Time per degridding   3.16237 (ns) 
+    Degridding rate   316.219 (million grid points per second)
+Done
+Verifying result...Pass
+    Num threads: 1
+    Time 8.45 (s) 
+    Time per visibility spectral sample 52.8125 (us) 
+    Time per degridding   3.17364 (ns) 
+    Degridding rate   315.096 (million grid points per second)
+Done
+Verifying result...Pass
+    Num threads: 1
+    Time 8.45 (s) 
+    Time per visibility spectral sample 52.8125 (us) 
+    Time per degridding   3.17364 (ns) 
+    Degridding rate   315.096 (million grid points per second)
+Done
+Verifying result...Pass
+    Num threads: 1
+    Time 8.45 (s) 
+    Time per visibility spectral sample 52.8125 (us) 
+    Time per degridding   3.17364 (ns) 
+    Degridding rate   315.096 (million grid points per second)
+Done
+Verifying result...Pass
+    Num threads: 1
+    Time 8.45 (s) 
+    Time per visibility spectral sample 52.8125 (us) 
+    Time per degridding   3.17364 (ns) 
+    Degridding rate   315.096 (million grid points per second)
+Done
+Verifying result...Pass
+    Num threads: 1
+    Time 8.42 (s) 
+    Time per visibility spectral sample 52.625 (us) 
+    Time per degridding   3.16237 (ns) 
+    Degridding rate   316.219 (million grid points per second)
+Done
+Verifying result...Pass
+    Num threads: 1
+    Time 8.45 (s) 
+    Time per visibility spectral sample 52.8125 (us) 
+    Time per degridding   3.17364 (ns) 
+    Degridding rate   315.096 (million grid points per second)
+Done
+Verifying result...Pass
+    Num threads: 1
+    Time 8.43 (s) 
+    Time per visibility spectral sample 52.6875 (us) 
+    Time per degridding   3.16613 (ns) 
+    Degridding rate   315.843 (million grid points per second)
+Done
+Verifying result...Pass
+    Num threads: 1
+    Time 8.42 (s) 
+    Time per visibility spectral sample 52.625 (us) 
+    Time per degridding   3.16237 (ns) 
+    Degridding rate   316.219 (million grid points per second)
+Done
+Verifying result...Pass
+srun -n 16
+srun: Job step creation temporarily disabled, retrying
+srun: Job step created
+Initializing W projection convolution function
+Support = 64 pixels
+W cellsize = 566.034 wavelengths
+Initializing W projection convolution function
+Support = 64 pixels
+W cellsize = 566.034 wavelengths
+Initializing W projection convolution function
+Support = 64 pixels
+Initializing W projection convolution function
+Support = 64 pixels
+W cellsize = 566.034 wavelengths
+Initializing W projection convolution function
+Support = 64 pixels
+W cellsize = 566.034 wavelengths
+W cellsize = 566.034 wavelengths
+Initializing W projection convolution function
+Support = 64 pixels
+W cellsize = 566.034 wavelengths
+Initializing W projection convolution function
+Support = 64 pixels
+W cellsize = 566.034 wavelengths
+Initializing W projection convolution function
+Support = 64 pixels
+W cellsize = 566.034 wavelengths
+Initializing W projection convolution function
+Support = 64 pixels
+W cellsize = 566.034 wavelengths
+Initializing W projection convolution function
+Support = 64 pixels
+W cellsize = 566.034 wavelengths
+Initializing W projection convolution function
+Support = 64 pixels
+W cellsize = 566.034 wavelengths
+Initializing W projection convolution function
+Support = 64 pixels
+Initializing W projection convolution function
+Support = 64 pixels
+W cellsize = 566.034 wavelengths
+Initializing W projection convolution function
+Support = 64 pixels
+W cellsize = 566.034 wavelengths
+W cellsize = 566.034 wavelengths
+Initializing W projection convolution function
+Support = 64 pixels
+W cellsize = 566.034 wavelengths
+Initializing W projection convolution function
+Support = 64 pixels
+W cellsize = 566.034 wavelengths
+Size of convolution function = 268 MB
+Shape of convolution function = [129, 129, 8, 8, 33]
+Size of convolution function = 268 MB
+Shape of convolution function = [129, 129, 8, 8, 33]
+Size of convolution function = 268 MB
+Shape of convolution function = [129, 129, 8, 8, 33]
+Size of convolution function = 268 MB
+Shape of convolution function = [129, 129, 8, 8, 33]
+Size of convolution function = 268 MB
+Shape of convolution function = [129, 129, 8, 8, 33]
+Size of convolution function = 268 MB
+Shape of convolution function = [129, 129, 8, 8, 33]
+Size of convolution function = 268 MB
+Shape of convolution function = [129, 129, 8, 8, 33]
+Size of convolution function = 268 MB
+Shape of convolution function = [129, 129, 8, 8, 33]
+Size of convolution function = 268 MB
+Shape of convolution function = [129, 129, 8, 8, 33]
+Size of convolution function = 268 MB
+Shape of convolution function = [129, 129, 8, 8, 33]
+Size of convolution function = 268 MB
+Shape of convolution function = [129, 129, 8, 8, 33]
+Size of convolution function = 268 MB
+Shape of convolution function = [129, 129, 8, 8, 33]
+Size of convolution function = 268 MB
+Shape of convolution function = [129, 129, 8, 8, 33]
+Size of convolution function = 268 MB
+Shape of convolution function = [129, 129, 8, 8, 33]
+Size of convolution function = 268 MB
+Shape of convolution function = [129, 129, 8, 8, 33]
+Size of convolution function = 268 MB
+Shape of convolution function = [129, 129, 8, 8, 33]
++++++ Forward processing (CPU) +++++
++++++ Forward processing (CPU) +++++
++++++ Forward processing (CPU) +++++
++++++ Forward processing (CPU) +++++
++++++ Forward processing (CPU) +++++
++++++ Forward processing (CPU) +++++
++++++ Forward processing (CPU) +++++
++++++ Forward processing (CPU) +++++
++++++ Forward processing (CPU) +++++
++++++ Forward processing (CPU) +++++
++++++ Forward processing (CPU) +++++
++++++ Forward processing (CPU) +++++
++++++ Forward processing (CPU) +++++
++++++ Forward processing (CPU) +++++
++++++ Forward processing (CPU) +++++
++++++ Forward processing (CPU) +++++
+    Time 14.33 (s) 
+    Time per visibility spectral sample 89.5625 (us) 
+    Time per gridding   5.38204 (ns) 
+    Gridding rate   185.803 (million grid points per second)
+Done
+    Time 14.4 (s) 
+    Time per visibility spectral sample 90 (us) 
+    Time per gridding   5.40833 (ns) 
+    Gridding rate   184.9 (million grid points per second)
+Done
+    Time 14.42 (s) 
+    Time per visibility spectral sample 90.125 (us) 
+    Time per gridding   5.41584 (ns) 
+    Gridding rate   184.644 (million grid points per second)
+Done
+    Time 14.41 (s) 
+    Time per visibility spectral sample 90.0625 (us) 
+    Time per gridding   5.41208 (ns) 
+    Gridding rate   184.772 (million grid points per second)
+Done
+    Time 14.4 (s) 
+    Time per visibility spectral sample 90 (us) 
+    Time per gridding   5.40833 (ns) 
+    Gridding rate   184.9 (million grid points per second)
+Done
+    Time 14.42 (s) 
+    Time per visibility spectral sample 90.125 (us) 
+    Time per gridding   5.41584 (ns) 
+    Gridding rate   184.644 (million grid points per second)
+Done
+    Time 14.44 (s) 
+    Time per visibility spectral sample 90.25 (us) 
+    Time per gridding   5.42335 (ns) 
+    Gridding rate   184.388 (million grid points per second)
+Done
+    Time 14.42 (s) 
+    Time per visibility spectral sample 90.125 (us) 
+    Time per gridding   5.41584 (ns) 
+    Gridding rate   184.644 (million grid points per second)
+Done
+    Time 14.41 (s) 
+    Time per visibility spectral sample 90.0625 (us) 
+    Time per gridding   5.41208 (ns) 
+    Gridding rate   184.772 (million grid points per second)
+Done
+    Time 14.42 (s) 
+    Time per visibility spectral sample 90.125 (us) 
+    Time per gridding   5.41584 (ns) 
+    Gridding rate   184.644 (million grid points per second)
+Done
++++++ Forward processing (OpenMP) +++++
+    Time 14.43 (s) 
+    Time per visibility spectral sample 90.1875 (us) 
+    Time per gridding   5.4196 (ns) 
+    Gridding rate   184.516 (million grid points per second)
+Done
+    Time 14.44 (s) 
+    Time per visibility spectral sample 90.25 (us) 
+    Time per gridding   5.42335 (ns) 
+    Gridding rate   184.388 (million grid points per second)
+Done
+    Time 14.44 (s) 
+    Time per visibility spectral sample 90.25 (us) 
+    Time per gridding   5.42335 (ns) 
+    Gridding rate   184.388 (million grid points per second)
+Done
+    Time 14.44 (s) 
+    Time per visibility spectral sample 90.25 (us) 
+    Time per gridding   5.42335 (ns) 
+    Gridding rate   184.388 (million grid points per second)
+Done
+    Time 14.45 (s) 
+    Time per visibility spectral sample 90.3125 (us) 
+    Time per gridding   5.42711 (ns) 
+    Gridding rate   184.26 (million grid points per second)
+Done
+    Time 14.45 (s) 
+    Time per visibility spectral sample 90.3125 (us) 
+    Time per gridding   5.42711 (ns) 
+    Gridding rate   184.26 (million grid points per second)
+Done
++++++ Forward processing (OpenMP) +++++
++++++ Forward processing (OpenMP) +++++
++++++ Forward processing (OpenMP) +++++
++++++ Forward processing (OpenMP) +++++
++++++ Forward processing (OpenMP) +++++
++++++ Forward processing (OpenMP) +++++
++++++ Forward processing (OpenMP) +++++
++++++ Forward processing (OpenMP) +++++
++++++ Forward processing (OpenMP) +++++
++++++ Forward processing (OpenMP) +++++
++++++ Forward processing (OpenMP) +++++
++++++ Forward processing (OpenMP) +++++
++++++ Forward processing (OpenMP) +++++
++++++ Forward processing (OpenMP) +++++
++++++ Forward processing (OpenMP) +++++
+    Num threads: 1
+    Time 14.05 (s) 
+    Time per visibility spectral sample 87.8125 (us) 
+    Time per gridding   5.27688 (ns) 
+    Gridding rate   189.506 (million grid points per second)
+Done
+Verifying result...Pass
++++++ Reverse processing (CPU) +++++
+    Num threads: 1
+    Time 14.44 (s) 
+    Time per visibility spectral sample 90.25 (us) 
+    Time per gridding   5.42335 (ns) 
+    Gridding rate   184.388 (million grid points per second)
+Done
+    Num threads: 1
+    Time 14.44 (s) 
+    Time per visibility spectral sample 90.25 (us) 
+    Time per gridding   5.42335 (ns) 
+    Gridding rate   184.388 (million grid points per second)
+Done
+    Num threads: 1
+    Time 14.44 (s) 
+    Time per visibility spectral sample 90.25 (us) 
+    Time per gridding   5.42335 (ns) 
+    Gridding rate   184.388 (million grid points per second)
+Done
+    Num threads: 1
+    Time 14.43 (s) 
+    Time per visibility spectral sample 90.1875 (us) 
+    Time per gridding   5.4196 (ns) 
+    Gridding rate   184.516 (million grid points per second)
+Done
+    Num threads: 1
+    Time 14.44 (s) 
+    Time per visibility spectral sample 90.25 (us) 
+    Time per gridding   5.42335 (ns) 
+    Gridding rate   184.388 (million grid points per second)
+Done
+    Num threads: 1
+    Time 14.44 (s) 
+    Time per visibility spectral sample 90.25 (us) 
+    Time per gridding   5.42335 (ns) 
+    Gridding rate   184.388 (million grid points per second)
+Done
+    Num threads: 1
+    Time 14.45 (s) 
+    Time per visibility spectral sample 90.3125 (us) 
+    Time per gridding   5.42711 (ns) 
+    Gridding rate   184.26 (million grid points per second)
+Done
+    Num threads: 1
+    Time 14.48 (s) 
+    Time per visibility spectral sample 90.5 (us) 
+    Time per gridding   5.43838 (ns) 
+    Gridding rate   183.878 (million grid points per second)
+Done
+    Num threads: 1
+    Time 14.46 (s) 
+    Time per visibility spectral sample 90.375 (us) 
+    Time per gridding   5.43086 (ns) 
+    Gridding rate   184.133 (million grid points per second)
+Done
+Verifying result...Pass
+Verifying result...Pass
+Verifying result...Pass
+Verifying result...Pass
+    Num threads: 1
+    Time 14.47 (s) 
+    Time per visibility spectral sample 90.4375 (us) 
+    Time per gridding   5.43462 (ns) 
+    Gridding rate   184.006 (million grid points per second)
+Done
+Verifying result...Pass
+Verifying result...Pass
++++++ Reverse processing (CPU) +++++
+    Num threads: 1
+    Time 14.49 (s) 
+    Time per visibility spectral sample 90.5625 (us) 
+    Time per gridding   5.44213 (ns) 
+    Gridding rate   183.752 (million grid points per second)
+Done
++++++ Reverse processing (CPU) +++++
+Verifying result...Pass
+Verifying result...Pass
+    Num threads: 1
+    Time 14.48 (s) 
+    Time per visibility spectral sample 90.5 (us) 
+    Time per gridding   5.43838 (ns) 
+    Gridding rate   183.878 (million grid points per second)
+Done
++++++ Reverse processing (CPU) +++++
+    Num threads: 1
+    Time 14.49 (s) 
+    Time per visibility spectral sample 90.5625 (us) 
+    Time per gridding   5.44213 (ns) 
+    Gridding rate   183.752 (million grid points per second)
+Done
++++++ Reverse processing (CPU) +++++
+Verifying result...Pass
++++++ Reverse processing (CPU) +++++
++++++ Reverse processing (CPU) +++++
++++++ Reverse processing (CPU) +++++
++++++ Reverse processing (CPU) +++++
+    Num threads: 1
+    Time 14.51 (s) 
+    Time per visibility spectral sample 90.6875 (us) 
+    Time per gridding   5.44964 (ns) 
+    Gridding rate   183.498 (million grid points per second)
+Done
+Verifying result...Pass
+    Num threads: 1
+    Time 14.51 (s) 
+    Time per visibility spectral sample 90.6875 (us) 
+    Time per gridding   5.44964 (ns) 
+    Gridding rate   183.498 (million grid points per second)
+Done
+Verifying result...Pass
++++++ Reverse processing (CPU) +++++
+Verifying result...Pass
+Verifying result...Pass
++++++ Reverse processing (CPU) +++++
++++++ Reverse processing (CPU) +++++
++++++ Reverse processing (CPU) +++++
+Verifying result...Pass
+Verifying result...Pass
++++++ Reverse processing (CPU) +++++
++++++ Reverse processing (CPU) +++++
++++++ Reverse processing (CPU) +++++
+    Time 10.32 (s) 
+    Time per visibility spectral sample 64.5 (us) 
+    Time per degridding   3.87597 (ns) 
+    Degridding rate   258 (million grid points per second)
+Done
++++++ Reverse processing (OpenMP) +++++
+    Time 10.12 (s) 
+    Time per visibility spectral sample 63.25 (us) 
+    Time per degridding   3.80085 (ns) 
+    Degridding rate   263.099 (million grid points per second)
+Done
+    Time 10.13 (s) 
+    Time per visibility spectral sample 63.3125 (us) 
+    Time per degridding   3.80461 (ns) 
+    Degridding rate   262.839 (million grid points per second)
+Done
+    Time 10.12 (s) 
+    Time per visibility spectral sample 63.25 (us) 
+    Time per degridding   3.80085 (ns) 
+    Degridding rate   263.099 (million grid points per second)
+Done
+    Time 10.13 (s) 
+    Time per visibility spectral sample 63.3125 (us) 
+    Time per degridding   3.80461 (ns) 
+    Degridding rate   262.839 (million grid points per second)
+Done
++++++ Reverse processing (OpenMP) +++++
+    Time 10.13 (s) 
+    Time per visibility spectral sample 63.3125 (us) 
+    Time per degridding   3.80461 (ns) 
+    Degridding rate   262.839 (million grid points per second)
+Done
+    Time 10.13 (s) 
+    Time per visibility spectral sample 63.3125 (us) 
+    Time per degridding   3.80461 (ns) 
+    Degridding rate   262.839 (million grid points per second)
+Done
++++++ Reverse processing (OpenMP) +++++
++++++ Reverse processing (OpenMP) +++++
+    Time 10.14 (s) 
+    Time per visibility spectral sample 63.375 (us) 
+    Time per degridding   3.80836 (ns) 
+    Degridding rate   262.58 (million grid points per second)
+Done
++++++ Reverse processing (OpenMP) +++++
+    Time 10.15 (s) 
+    Time per visibility spectral sample 63.4375 (us) 
+    Time per degridding   3.81212 (ns) 
+    Degridding rate   262.321 (million grid points per second)
+Done
++++++ Reverse processing (OpenMP) +++++
++++++ Reverse processing (OpenMP) +++++
++++++ Reverse processing (OpenMP) +++++
+    Time 10.14 (s) 
+    Time per visibility spectral sample 63.375 (us) 
+    Time per degridding   3.80836 (ns) 
+    Degridding rate   262.58 (million grid points per second)
+Done
+    Time 10.16 (s) 
+    Time per visibility spectral sample 63.5 (us) 
+    Time per degridding   3.81588 (ns) 
+    Degridding rate   262.063 (million grid points per second)
+Done
++++++ Reverse processing (OpenMP) +++++
+    Time 10.15 (s) 
+    Time per visibility spectral sample 63.4375 (us) 
+    Time per degridding   3.81212 (ns) 
+    Degridding rate   262.321 (million grid points per second)
+Done
++++++ Reverse processing (OpenMP) +++++
+    Time 10.15 (s) 
+    Time per visibility spectral sample 63.4375 (us) 
+    Time per degridding   3.81212 (ns) 
+    Degridding rate   262.321 (million grid points per second)
+Done
++++++ Reverse processing (OpenMP) +++++
+    Time 10.15 (s) 
+    Time per visibility spectral sample 63.4375 (us) 
+    Time per degridding   3.81212 (ns) 
+    Degridding rate   262.321 (million grid points per second)
+Done
++++++ Reverse processing (OpenMP) +++++
++++++ Reverse processing (OpenMP) +++++
++++++ Reverse processing (OpenMP) +++++
+    Time 10.16 (s) 
+    Time per visibility spectral sample 63.5 (us) 
+    Time per degridding   3.81588 (ns) 
+    Degridding rate   262.063 (million grid points per second)
+Done
+    Time 10.17 (s) 
+    Time per visibility spectral sample 63.5625 (us) 
+    Time per degridding   3.81963 (ns) 
+    Degridding rate   261.805 (million grid points per second)
+Done
++++++ Reverse processing (OpenMP) +++++
++++++ Reverse processing (OpenMP) +++++
+    Num threads: 1
+    Time 10.14 (s) 
+    Time per visibility spectral sample 63.375 (us) 
+    Time per degridding   3.80836 (ns) 
+    Degridding rate   262.58 (million grid points per second)
+Done
+Verifying result...Pass
+    Num threads: 1
+    Time 10.15 (s) 
+    Time per visibility spectral sample 63.4375 (us) 
+    Time per degridding   3.81212 (ns) 
+    Degridding rate   262.321 (million grid points per second)
+Done
+Verifying result...Pass
+    Num threads: 1
+    Time 10.14 (s) 
+    Time per visibility spectral sample 63.375 (us) 
+    Time per degridding   3.80836 (ns) 
+    Degridding rate   262.58 (million grid points per second)
+Done
+Verifying result...Pass
+    Num threads: 1
+    Time 10.14 (s) 
+    Time per visibility spectral sample 63.375 (us) 
+    Time per degridding   3.80836 (ns) 
+    Degridding rate   262.58 (million grid points per second)
+Done
+Verifying result...Pass
+    Num threads: 1
+    Time 10.14 (s) 
+    Time per visibility spectral sample 63.375 (us) 
+    Time per degridding   3.80836 (ns) 
+    Degridding rate   262.58 (million grid points per second)
+Done
+Verifying result...Pass
+    Num threads: 1
+    Time 10.13 (s) 
+    Time per visibility spectral sample 63.3125 (us) 
+    Time per degridding   3.80461 (ns) 
+    Degridding rate   262.839 (million grid points per second)
+Done
+Verifying result...Pass
+    Num threads: 1
+    Time 10.13 (s) 
+    Time per visibility spectral sample 63.3125 (us) 
+    Time per degridding   3.80461 (ns) 
+    Degridding rate   262.839 (million grid points per second)
+Done
+Verifying result...Pass
+    Num threads: 1
+    Time 10.13 (s) 
+    Time per visibility spectral sample 63.3125 (us) 
+    Time per degridding   3.80461 (ns) 
+    Degridding rate   262.839 (million grid points per second)
+Done
+Verifying result...Pass
+    Num threads: 1
+    Time 10.13 (s) 
+    Time per visibility spectral sample 63.3125 (us) 
+    Time per degridding   3.80461 (ns) 
+    Degridding rate   262.839 (million grid points per second)
+Done
+Verifying result...Pass
+    Num threads: 1
+    Time 10.12 (s) 
+    Time per visibility spectral sample 63.25 (us) 
+    Time per degridding   3.80085 (ns) 
+    Degridding rate   263.099 (million grid points per second)
+Done
+Verifying result...Pass
+    Num threads: 1
+    Time 10.12 (s) 
+    Time per visibility spectral sample 63.25 (us) 
+    Time per degridding   3.80085 (ns) 
+    Degridding rate   263.099 (million grid points per second)
+Done
+Verifying result...Pass
+    Num threads: 1
+    Time 10.13 (s) 
+    Time per visibility spectral sample 63.3125 (us) 
+    Time per degridding   3.80461 (ns) 
+    Degridding rate   262.839 (million grid points per second)
+Done
+Verifying result...Pass
+    Num threads: 1
+    Time 10.13 (s) 
+    Time per visibility spectral sample 63.3125 (us) 
+    Time per degridding   3.80461 (ns) 
+    Degridding rate   262.839 (million grid points per second)
+Done
+Verifying result...Pass
+    Num threads: 1
+    Time 10.13 (s) 
+    Time per visibility spectral sample 63.3125 (us) 
+    Time per degridding   3.80461 (ns) 
+    Degridding rate   262.839 (million grid points per second)
+Done
+Verifying result...Pass
+    Num threads: 1
+    Time 10.12 (s) 
+    Time per visibility spectral sample 63.25 (us) 
+    Time per degridding   3.80085 (ns) 
+    Degridding rate   263.099 (million grid points per second)
+Done
+Verifying result...Pass
+    Num threads: 1
+    Time 10.11 (s) 
+    Time per visibility spectral sample 63.1875 (us) 
+    Time per degridding   3.7971 (ns) 
+    Degridding rate   263.359 (million grid points per second)
+Done
+Verifying result...Pass
+srun -n 20
+srun: Job step creation temporarily disabled, retrying
+srun: Job step created
+Initializing W projection convolution function
+Support = 64 pixels
+W cellsize = 566.034 wavelengths
+Initializing W projection convolution function
+Support = 64 pixels
+W cellsize = 566.034 wavelengths
+Initializing W projection convolution function
+Support = 64 pixels
+W cellsize = 566.034 wavelengths
+Initializing W projection convolution function
+Support = 64 pixels
+W cellsize = 566.034 wavelengths
+Initializing W projection convolution function
+Support = 64 pixels
+W cellsize = 566.034 wavelengths
+Initializing W projection convolution function
+Support = 64 pixels
+W cellsize = 566.034 wavelengths
+Initializing W projection convolution function
+Support = 64 pixels
+W cellsize = 566.034 wavelengths
+Initializing W projection convolution function
+Support = 64 pixels
+W cellsize = 566.034 wavelengths
+Initializing W projection convolution function
+Support = 64 pixels
+W cellsize = 566.034 wavelengths
+Initializing W projection convolution function
+Support = 64 pixels
+W cellsize = 566.034 wavelengths
+Initializing W projection convolution function
+Support = 64 pixels
+W cellsize = 566.034 wavelengths
+Initializing W projection convolution function
+Support = 64 pixels
+W cellsize = 566.034 wavelengths
+Initializing W projection convolution function
+Support = 64 pixels
+W cellsize = 566.034 wavelengths
+Initializing W projection convolution function
+Support = 64 pixels
+W cellsize = 566.034 wavelengths
+Initializing W projection convolution function
+Support = 64 pixels
+W cellsize = 566.034 wavelengths
+Initializing W projection convolution function
+Support = 64 pixels
+W cellsize = 566.034 wavelengths
+Initializing W projection convolution function
+Support = 64 pixels
+W cellsize = 566.034 wavelengths
+Initializing W projection convolution function
+Support = 64 pixels
+W cellsize = 566.034 wavelengths
+Initializing W projection convolution function
+Support = 64 pixels
+W cellsize = 566.034 wavelengths
+Initializing W projection convolution function
+Support = 64 pixels
+W cellsize = 566.034 wavelengths
+Size of convolution function = 268 MB
+Shape of convolution function = [129, 129, 8, 8, 33]
+Size of convolution function = 268 MB
+Shape of convolution function = [129, 129, 8, 8, 33]
+Size of convolution function = 268 MB
+Shape of convolution function = [129, 129, 8, 8, 33]
+Size of convolution function = 268 MB
+Shape of convolution function = [129, 129, 8, 8, 33]
+Size of convolution function = 268 MB
+Shape of convolution function = [129, 129, 8, 8, 33]
+Size of convolution function = 268 MB
+Shape of convolution function = [129, 129, 8, 8, 33]
+Size of convolution function = 268 MB
+Shape of convolution function = [129, 129, 8, 8, 33]
+Size of convolution function = 268 MB
+Shape of convolution function = [129, 129, 8, 8, 33]
+Size of convolution function = 268 MB
+Shape of convolution function = [129, 129, 8, 8, 33]
+Size of convolution function = 268 MB
+Shape of convolution function = [129, 129, 8, 8, 33]
+Size of convolution function = 268 MB
+Shape of convolution function = [129, 129, 8, 8, 33]
+Size of convolution function = 268 MB
+Shape of convolution function = [129, 129, 8, 8, 33]
+Size of convolution function = 268 MB
+Shape of convolution function = [129, 129, 8, 8, 33]
+Size of convolution function = 268 MB
+Shape of convolution function = [129, 129, 8, 8, 33]
+Size of convolution function = 268 MB
+Shape of convolution function = [129, 129, 8, 8, 33]
+Size of convolution function = 268 MB
+Shape of convolution function = [129, 129, 8, 8, 33]
+Size of convolution function = 268 MB
+Shape of convolution function = [129, 129, 8, 8, 33]
+Size of convolution function = 268 MB
+Shape of convolution function = [129, 129, 8, 8, 33]
+Size of convolution function = 268 MB
+Shape of convolution function = [129, 129, 8, 8, 33]
+Size of convolution function = 268 MB
+Shape of convolution function = [129, 129, 8, 8, 33]
++++++ Forward processing (CPU) +++++
++++++ Forward processing (CPU) +++++
++++++ Forward processing (CPU) +++++
++++++ Forward processing (CPU) +++++
++++++ Forward processing (CPU) +++++
++++++ Forward processing (CPU) +++++
++++++ Forward processing (CPU) +++++
++++++ Forward processing (CPU) +++++
++++++ Forward processing (CPU) +++++
++++++ Forward processing (CPU) +++++
++++++ Forward processing (CPU) +++++
++++++ Forward processing (CPU) +++++
++++++ Forward processing (CPU) +++++
++++++ Forward processing (CPU) +++++
++++++ Forward processing (CPU) +++++
++++++ Forward processing (CPU) +++++
++++++ Forward processing (CPU) +++++
++++++ Forward processing (CPU) +++++
++++++ Forward processing (CPU) +++++
++++++ Forward processing (CPU) +++++
+    Time 17.96 (s) 
+    Time per visibility spectral sample 112.25 (us) 
+    Time per gridding   6.74539 (ns) 
+    Gridding rate   148.249 (million grid points per second)
+Done
+    Time 17.98 (s) 
+    Time per visibility spectral sample 112.375 (us) 
+    Time per gridding   6.7529 (ns) 
+    Gridding rate   148.085 (million grid points per second)
+Done
++++++ Forward processing (OpenMP) +++++
+    Time 18.05 (s) 
+    Time per visibility spectral sample 112.812 (us) 
+    Time per gridding   6.77919 (ns) 
+    Gridding rate   147.51 (million grid points per second)
+Done
+    Time 18.11 (s) 
+    Time per visibility spectral sample 113.188 (us) 
+    Time per gridding   6.80172 (ns) 
+    Gridding rate   147.022 (million grid points per second)
+Done
+    Time 18.11 (s) 
+    Time per visibility spectral sample 113.188 (us) 
+    Time per gridding   6.80172 (ns) 
+    Gridding rate   147.022 (million grid points per second)
+Done
+    Time 18.11 (s) 
+    Time per visibility spectral sample 113.188 (us) 
+    Time per gridding   6.80172 (ns) 
+    Gridding rate   147.022 (million grid points per second)
+Done
+    Time 18.12 (s) 
+    Time per visibility spectral sample 113.25 (us) 
+    Time per gridding   6.80548 (ns) 
+    Gridding rate   146.94 (million grid points per second)
+Done
+    Time 18.11 (s) 
+    Time per visibility spectral sample 113.188 (us) 
+    Time per gridding   6.80172 (ns) 
+    Gridding rate   147.022 (million grid points per second)
+Done
++++++ Forward processing (OpenMP) +++++
+    Time 18.12 (s) 
+    Time per visibility spectral sample 113.25 (us) 
+    Time per gridding   6.80548 (ns) 
+    Gridding rate   146.94 (million grid points per second)
+Done
+    Time 18.12 (s) 
+    Time per visibility spectral sample 113.25 (us) 
+    Time per gridding   6.80548 (ns) 
+    Gridding rate   146.94 (million grid points per second)
+Done
+    Time 18.12 (s) 
+    Time per visibility spectral sample 113.25 (us) 
+    Time per gridding   6.80548 (ns) 
+    Gridding rate   146.94 (million grid points per second)
+Done
+    Time 18.14 (s) 
+    Time per visibility spectral sample 113.375 (us) 
+    Time per gridding   6.81299 (ns) 
+    Gridding rate   146.778 (million grid points per second)
+Done
+    Time 18.13 (s) 
+    Time per visibility spectral sample 113.312 (us) 
+    Time per gridding   6.80924 (ns) 
+    Gridding rate   146.859 (million grid points per second)
+Done
+    Time 18.14 (s) 
+    Time per visibility spectral sample 113.375 (us) 
+    Time per gridding   6.81299 (ns) 
+    Gridding rate   146.778 (million grid points per second)
+Done
+    Time 18.15 (s) 
+    Time per visibility spectral sample 113.438 (us) 
+    Time per gridding   6.81675 (ns) 
+    Gridding rate   146.698 (million grid points per second)
+Done
+    Time 18.15 (s) 
+    Time per visibility spectral sample 113.438 (us) 
+    Time per gridding   6.81675 (ns) 
+    Gridding rate   146.698 (million grid points per second)
+Done
++++++ Forward processing (OpenMP) +++++
++++++ Forward processing (OpenMP) +++++
+    Time 18.18 (s) 
+    Time per visibility spectral sample 113.625 (us) 
+    Time per gridding   6.82802 (ns) 
+    Gridding rate   146.455 (million grid points per second)
+Done
+    Time 18.2 (s) 
+    Time per visibility spectral sample 113.75 (us) 
+    Time per gridding   6.83553 (ns) 
+    Gridding rate   146.295 (million grid points per second)
+Done
+    Time 18.21 (s) 
+    Time per visibility spectral sample 113.812 (us) 
+    Time per gridding   6.83928 (ns) 
+    Gridding rate   146.214 (million grid points per second)
+Done
++++++ Forward processing (OpenMP) +++++
++++++ Forward processing (OpenMP) +++++
++++++ Forward processing (OpenMP) +++++
+    Time 18.22 (s) 
+    Time per visibility spectral sample 113.875 (us) 
+    Time per gridding   6.84304 (ns) 
+    Gridding rate   146.134 (million grid points per second)
+Done
++++++ Forward processing (OpenMP) +++++
++++++ Forward processing (OpenMP) +++++
++++++ Forward processing (OpenMP) +++++
++++++ Forward processing (OpenMP) +++++
++++++ Forward processing (OpenMP) +++++
++++++ Forward processing (OpenMP) +++++
++++++ Forward processing (OpenMP) +++++
++++++ Forward processing (OpenMP) +++++
++++++ Forward processing (OpenMP) +++++
++++++ Forward processing (OpenMP) +++++
++++++ Forward processing (OpenMP) +++++
++++++ Forward processing (OpenMP) +++++
++++++ Forward processing (OpenMP) +++++
+    Num threads: 1
+    Time 17.93 (s) 
+    Time per visibility spectral sample 112.062 (us) 
+    Time per gridding   6.73412 (ns) 
+    Gridding rate   148.497 (million grid points per second)
+Done
+    Num threads: 1
+    Time 17.9 (s) 
+    Time per visibility spectral sample 111.875 (us) 
+    Time per gridding   6.72285 (ns) 
+    Gridding rate   148.746 (million grid points per second)
+Done
+Verifying result...Pass
+Verifying result...Pass
++++++ Reverse processing (CPU) +++++
++++++ Reverse processing (CPU) +++++
+    Num threads: 1
+    Time 17.92 (s) 
+    Time per visibility spectral sample 112 (us) 
+    Time per gridding   6.73036 (ns) 
+    Gridding rate   148.58 (million grid points per second)
+Done
+Verifying result...Pass
+    Num threads: 1
+    Time 18.06 (s) 
+    Time per visibility spectral sample 112.875 (us) 
+    Time per gridding   6.78295 (ns) 
+    Gridding rate   147.429 (million grid points per second)
+Done
++++++ Reverse processing (CPU) +++++
+    Num threads: 1
+    Time 18.02 (s) 
+    Time per visibility spectral sample 112.625 (us) 
+    Time per gridding   6.76792 (ns) 
+    Gridding rate   147.756 (million grid points per second)
+Done
+Verifying result...Pass
++++++ Reverse processing (CPU) +++++
+    Num threads: 1
+    Time 18.09 (s) 
+    Time per visibility spectral sample 113.062 (us) 
+    Time per gridding   6.79421 (ns) 
+    Gridding rate   147.184 (million grid points per second)
+Done
+Verifying result...Pass
+    Num threads: 1
+    Time 18.17 (s) 
+    Time per visibility spectral sample 113.562 (us) 
+    Time per gridding   6.82426 (ns) 
+    Gridding rate   146.536 (million grid points per second)
+Done
+    Num threads: 1
+    Time 18.14 (s) 
+    Time per visibility spectral sample 113.375 (us) 
+    Time per gridding   6.81299 (ns) 
+    Gridding rate   146.778 (million grid points per second)
+Done
+    Num threads: 1
+    Time 18.13 (s) 
+    Time per visibility spectral sample 113.312 (us) 
+    Time per gridding   6.80924 (ns) 
+    Gridding rate   146.859 (million grid points per second)
+Done
++++++ Reverse processing (CPU) +++++
+    Num threads: 1
+    Time 18.17 (s) 
+    Time per visibility spectral sample 113.562 (us) 
+    Time per gridding   6.82426 (ns) 
+    Gridding rate   146.536 (million grid points per second)
+Done
+    Num threads: 1
+    Time 18.17 (s) 
+    Time per visibility spectral sample 113.562 (us) 
+    Time per gridding   6.82426 (ns) 
+    Gridding rate   146.536 (million grid points per second)
+Done
+    Num threads: 1
+    Time 18.17 (s) 
+    Time per visibility spectral sample 113.562 (us) 
+    Time per gridding   6.82426 (ns) 
+    Gridding rate   146.536 (million grid points per second)
+Done
+Verifying result...Pass
+    Num threads: 1
+    Time 18.17 (s) 
+    Time per visibility spectral sample 113.562 (us) 
+    Time per gridding   6.82426 (ns) 
+    Gridding rate   146.536 (million grid points per second)
+Done
+Verifying result...Pass
+    Num threads: 1
+    Time 18.19 (s) 
+    Time per visibility spectral sample 113.688 (us) 
+    Time per gridding   6.83177 (ns) 
+    Gridding rate   146.375 (million grid points per second)
+Done
+Verifying result...Pass
+Verifying result...Pass
+    Num threads: 1
+    Time 18.19 (s) 
+    Time per visibility spectral sample 113.688 (us) 
+    Time per gridding   6.83177 (ns) 
+    Gridding rate   146.375 (million grid points per second)
+Done
++++++ Reverse processing (CPU) +++++
+Verifying result...Pass
+Verifying result...Pass
++++++ Reverse processing (CPU) +++++
+Verifying result...Pass
++++++ Reverse processing (CPU) +++++
++++++ Reverse processing (CPU) +++++
+Verifying result...Pass
+Verifying result...Pass
++++++ Reverse processing (CPU) +++++
++++++ Reverse processing (CPU) +++++
++++++ Reverse processing (CPU) +++++
+Verifying result...Pass
++++++ Reverse processing (CPU) +++++
+    Num threads: 1
+    Time 18.25 (s) 
+    Time per visibility spectral sample 114.062 (us) 
+    Time per gridding   6.85431 (ns) 
+    Gridding rate   145.894 (million grid points per second)
+Done
++++++ Reverse processing (CPU) +++++
++++++ Reverse processing (CPU) +++++
+    Num threads: 1
+    Time 18.2 (s) 
+    Time per visibility spectral sample 113.75 (us) 
+    Time per gridding   6.83553 (ns) 
+    Gridding rate   146.295 (million grid points per second)
+Done
+Verifying result...Pass
++++++ Reverse processing (CPU) +++++
+    Num threads: 1
+    Time 18.26 (s) 
+    Time per visibility spectral sample 114.125 (us) 
+    Time per gridding   6.85806 (ns) 
+    Gridding rate   145.814 (million grid points per second)
+Done
+Verifying result...Pass
+    Num threads: 1
+    Time 18.29 (s) 
+    Time per visibility spectral sample 114.312 (us) 
+    Time per gridding   6.86933 (ns) 
+    Gridding rate   145.575 (million grid points per second)
+Done
++++++ Reverse processing (CPU) +++++
+    Num threads: 1
+    Time 18.31 (s) 
+    Time per visibility spectral sample 114.438 (us) 
+    Time per gridding   6.87684 (ns) 
+    Gridding rate   145.416 (million grid points per second)
+Done
+Verifying result...Pass
+Verifying result...Pass
++++++ Reverse processing (CPU) +++++
+Verifying result...Pass
++++++ Reverse processing (CPU) +++++
++++++ Reverse processing (CPU) +++++
+    Time 12.46 (s) 
+    Time per visibility spectral sample 77.875 (us) 
+    Time per degridding   4.67971 (ns) 
+    Degridding rate   213.689 (million grid points per second)
+Done
+    Time 12.48 (s) 
+    Time per visibility spectral sample 78 (us) 
+    Time per degridding   4.68722 (ns) 
+    Degridding rate   213.346 (million grid points per second)
+Done
++++++ Reverse processing (OpenMP) +++++
++++++ Reverse processing (OpenMP) +++++
+    Time 12.42 (s) 
+    Time per visibility spectral sample 77.625 (us) 
+    Time per degridding   4.66468 (ns) 
+    Degridding rate   214.377 (million grid points per second)
+Done
++++++ Reverse processing (OpenMP) +++++
+    Time 12.42 (s) 
+    Time per visibility spectral sample 77.625 (us) 
+    Time per degridding   4.66468 (ns) 
+    Degridding rate   214.377 (million grid points per second)
+Done
+    Time 12.39 (s) 
+    Time per visibility spectral sample 77.4375 (us) 
+    Time per degridding   4.65342 (ns) 
+    Degridding rate   214.896 (million grid points per second)
+Done
+    Time 12.34 (s) 
+    Time per visibility spectral sample 77.125 (us) 
+    Time per degridding   4.63464 (ns) 
+    Degridding rate   215.767 (million grid points per second)
+Done
++++++ Reverse processing (OpenMP) +++++
++++++ Reverse processing (OpenMP) +++++
+    Time 12.35 (s) 
+    Time per visibility spectral sample 77.1875 (us) 
+    Time per degridding   4.63839 (ns) 
+    Degridding rate   215.592 (million grid points per second)
+Done
++++++ Reverse processing (OpenMP) +++++
+    Time 12.39 (s) 
+    Time per visibility spectral sample 77.4375 (us) 
+    Time per degridding   4.65342 (ns) 
+    Degridding rate   214.896 (million grid points per second)
+Done
+    Time 12.34 (s) 
+    Time per visibility spectral sample 77.125 (us) 
+    Time per degridding   4.63464 (ns) 
+    Degridding rate   215.767 (million grid points per second)
+Done
+    Time 12.35 (s) 
+    Time per visibility spectral sample 77.1875 (us) 
+    Time per degridding   4.63839 (ns) 
+    Degridding rate   215.592 (million grid points per second)
+Done
+    Time 12.35 (s) 
+    Time per visibility spectral sample 77.1875 (us) 
+    Time per degridding   4.63839 (ns) 
+    Degridding rate   215.592 (million grid points per second)
+Done
++++++ Reverse processing (OpenMP) +++++
+    Time 12.38 (s) 
+    Time per visibility spectral sample 77.375 (us) 
+    Time per degridding   4.64966 (ns) 
+    Degridding rate   215.069 (million grid points per second)
+Done
+    Time 12.34 (s) 
+    Time per visibility spectral sample 77.125 (us) 
+    Time per degridding   4.63464 (ns) 
+    Degridding rate   215.767 (million grid points per second)
+Done
++++++ Reverse processing (OpenMP) +++++
+    Time 12.34 (s) 
+    Time per visibility spectral sample 77.125 (us) 
+    Time per degridding   4.63464 (ns) 
+    Degridding rate   215.767 (million grid points per second)
+Done
++++++ Reverse processing (OpenMP) +++++
++++++ Reverse processing (OpenMP) +++++
++++++ Reverse processing (OpenMP) +++++
++++++ Reverse processing (OpenMP) +++++
++++++ Reverse processing (OpenMP) +++++
+    Time 12.37 (s) 
+    Time per visibility spectral sample 77.3125 (us) 
+    Time per degridding   4.6459 (ns) 
+    Degridding rate   215.243 (million grid points per second)
+Done
++++++ Reverse processing (OpenMP) +++++
++++++ Reverse processing (OpenMP) +++++
+    Time 12.38 (s) 
+    Time per visibility spectral sample 77.375 (us) 
+    Time per degridding   4.64966 (ns) 
+    Degridding rate   215.069 (million grid points per second)
+Done
+    Time 12.37 (s) 
+    Time per visibility spectral sample 77.3125 (us) 
+    Time per degridding   4.6459 (ns) 
+    Degridding rate   215.243 (million grid points per second)
+Done
++++++ Reverse processing (OpenMP) +++++
+    Time 12.35 (s) 
+    Time per visibility spectral sample 77.1875 (us) 
+    Time per degridding   4.63839 (ns) 
+    Degridding rate   215.592 (million grid points per second)
+Done
++++++ Reverse processing (OpenMP) +++++
+    Time 12.35 (s) 
+    Time per visibility spectral sample 77.1875 (us) 
+    Time per degridding   4.63839 (ns) 
+    Degridding rate   215.592 (million grid points per second)
+Done
++++++ Reverse processing (OpenMP) +++++
++++++ Reverse processing (OpenMP) +++++
+    Time 12.41 (s) 
+    Time per visibility spectral sample 77.5625 (us) 
+    Time per degridding   4.66093 (ns) 
+    Degridding rate   214.55 (million grid points per second)
+Done
++++++ Reverse processing (OpenMP) +++++
+    Num threads: 1
+    Time 12.31 (s) 
+    Time per visibility spectral sample 76.9375 (us) 
+    Time per degridding   4.62337 (ns) 
+    Degridding rate   216.292 (million grid points per second)
+Done
+Verifying result...Pass
+    Num threads: 1
+    Time 12.33 (s) 
+    Time per visibility spectral sample 77.0625 (us) 
+    Time per degridding   4.63088 (ns) 
+    Degridding rate   215.942 (million grid points per second)
+Done
+Verifying result...Pass
+    Num threads: 1
+    Time 12.35 (s) 
+    Time per visibility spectral sample 77.1875 (us) 
+    Time per degridding   4.63839 (ns) 
+    Degridding rate   215.592 (million grid points per second)
+Done
+Verifying result...Pass
+    Num threads: 1
+    Time 12.31 (s) 
+    Time per visibility spectral sample 76.9375 (us) 
+    Time per degridding   4.62337 (ns) 
+    Degridding rate   216.292 (million grid points per second)
+Done
+Verifying result...Pass
+    Num threads: 1
+    Time 12.33 (s) 
+    Time per visibility spectral sample 77.0625 (us) 
+    Time per degridding   4.63088 (ns) 
+    Degridding rate   215.942 (million grid points per second)
+Done
+Verifying result...Pass
+    Num threads: 1
+    Time 12.33 (s) 
+    Time per visibility spectral sample 77.0625 (us) 
+    Time per degridding   4.63088 (ns) 
+    Degridding rate   215.942 (million grid points per second)
+Done
+Verifying result...Pass
+    Num threads: 1
+    Time 12.31 (s) 
+    Time per visibility spectral sample 76.9375 (us) 
+    Time per degridding   4.62337 (ns) 
+    Degridding rate   216.292 (million grid points per second)
+Done
+Verifying result...Pass
+    Num threads: 1
+    Time 12.3 (s) 
+    Time per visibility spectral sample 76.875 (us) 
+    Time per degridding   4.61961 (ns) 
+    Degridding rate   216.468 (million grid points per second)
+Done
+Verifying result...Pass
+    Num threads: 1
+    Time 12.32 (s) 
+    Time per visibility spectral sample 77 (us) 
+    Time per degridding   4.62713 (ns) 
+    Degridding rate   216.117 (million grid points per second)
+Done
+Verifying result...Pass
+    Num threads: 1
+    Time 12.34 (s) 
+    Time per visibility spectral sample 77.125 (us) 
+    Time per degridding   4.63464 (ns) 
+    Degridding rate   215.767 (million grid points per second)
+Done
+Verifying result...Pass
+    Num threads: 1
+    Time 12.32 (s) 
+    Time per visibility spectral sample 77 (us) 
+    Time per degridding   4.62713 (ns) 
+    Degridding rate   216.117 (million grid points per second)
+Done
+Verifying result...Pass
+    Num threads: 1
+    Time 12.32 (s) 
+    Time per visibility spectral sample 77 (us) 
+    Time per degridding   4.62713 (ns) 
+    Degridding rate   216.117 (million grid points per second)
+Done
+Verifying result...Pass
+    Num threads: 1
+    Time 12.32 (s) 
+    Time per visibility spectral sample 77 (us) 
+    Time per degridding   4.62713 (ns) 
+    Degridding rate   216.117 (million grid points per second)
+Done
+Verifying result...Pass
+    Num threads: 1
+    Time 12.31 (s) 
+    Time per visibility spectral sample 76.9375 (us) 
+    Time per degridding   4.62337 (ns) 
+    Degridding rate   216.292 (million grid points per second)
+Done
+Verifying result...Pass
+    Num threads: 1
+    Time 12.3 (s) 
+    Time per visibility spectral sample 76.875 (us) 
+    Time per degridding   4.61961 (ns) 
+    Degridding rate   216.468 (million grid points per second)
+Done
+Verifying result...Pass
+    Num threads: 1
+    Time 12.26 (s) 
+    Time per visibility spectral sample 76.625 (us) 
+    Time per degridding   4.60459 (ns) 
+    Degridding rate   217.175 (million grid points per second)
+Done
+Verifying result...Pass
+    Num threads: 1
+    Time 12.23 (s) 
+    Time per visibility spectral sample 76.4375 (us) 
+    Time per degridding   4.59332 (ns) 
+    Degridding rate   217.707 (million grid points per second)
+Done
+Verifying result...Pass
+    Num threads: 1
+    Time 12.21 (s) 
+    Time per visibility spectral sample 76.3125 (us) 
+    Time per degridding   4.58581 (ns) 
+    Degridding rate   218.064 (million grid points per second)
+Done
+Verifying result...Pass
+    Num threads: 1
+    Time 12.29 (s) 
+    Time per visibility spectral sample 76.8125 (us) 
+    Time per degridding   4.61586 (ns) 
+    Degridding rate   216.644 (million grid points per second)
+Done
+Verifying result...Pass
+    Num threads: 1
+    Time 12.21 (s) 
+    Time per visibility spectral sample 76.3125 (us) 
+    Time per degridding   4.58581 (ns) 
+    Degridding rate   218.064 (million grid points per second)
+Done
+Verifying result...Pass
